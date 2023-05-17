@@ -1,0 +1,51 @@
+.bordered {
+    border: 5px solid black;
+    background-color: rgb(255, 153, 0);
+}
+
+body {
+    background-color: #045aca;
+    margin: 0 auto;
+}
+
+.title {
+    font-weight:900;
+    font-size: 60px;
+    color: rgb(4, 63, 131);
+    text-shadow: 2px 2px 2px black;
+    text-align: center;
+    padding: 20px;
+}
+
+.bordered {
+    /* margin: 5px 6px 7px 8px; */
+    margin: 0 auto;
+    width: 650px;
+}
+
+.image {
+    text-align: center;
+}
+
+.subbody {
+    padding: 20px 10px 10px 15px;
+    letter-spacing: 0.1em;
+}
+
+.list {
+    padding: 15px 10px 10px 40px;
+    line-height: 30px;
+    letter-spacing: 0.1em;
+}
+
+.paddinged {
+    padding: 15px;
+    line-height: 30px;
+    letter-spacing: 0.1em;
+}
+
+.paddinged_2 {
+    padding: 10px 10px 40px 10px;
+    line-height: 30px;
+    letter-spacing: 0.1em;
+}

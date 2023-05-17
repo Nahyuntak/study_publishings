@@ -1,0 +1,32 @@
+* {
+    border: 1px dotted gray;
+}
+
+.bordered {
+    /* border style로 solid 찾음 */
+    border: 6px solid blue;
+    /* 왼쪽 상단부터 시계방향으로 경계선 표현 */
+    border-style: dashed solid dotted double;
+}
+
+.margined {
+    /* margin: 5px 6px 7px 8px; */
+    /* 0:상하, auto:좌우, 간격이*/
+    margin: 0 auto;
+    width: 150px;
+}
+
+.paddinged {
+    padding: 10px 11px 12px 13px ;
+    border: 1px solid brown;
+}
+
+.aligned {
+    /* 글짜 크기 */
+    font-size : 20px;
+    text-align: center;
+}
+/*전체내용폭 조정*/
+/* body { */
+    /* width: 300px; */
+/* } */
