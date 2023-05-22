@@ -12,6 +12,41 @@
 
 <body>
     <div class="container">
+        <div class="fs-3">Input template</div>
+        <form action="../index.html">
+            <div class="m-3 form-check">
+                <input type="radio" name="browsers" value="edge" class="form-check-input">
+                <label for="" class="form-check-label">Edge</label>
+            </div>
+            <div class="m-3 form-check">
+                <input type="radio" name="browsers" value="chrome" class="form-check-input">
+                <label for="" class="form-check-label">Chrome</label>
+            </div>
+            <div class="m-3 form-check">
+                <input type="radio" name="browsers" value="safari" class="form-check-input">
+                <label for="" class="form-check-label">Safari</label>
+            </div>
+            <div>
+                <button class="btn btn-primary">자료전송</button>
+            </div>
+        </form>
+        <hr>
+
+
+        <div class="fs-3">Input select</div>
+        <form action="">
+            <div class="m-3">
+                <label class="form-label" for="">Select Item</label>
+                <select  class="form-select" name="browsers" id="">
+                    <option value="edge">Edge</option>
+                    <option value="chrome">Chrome</option>
+                    <option value="safari">Safari</option>
+                </select>
+            </div>
+        </form>
+        <hr>
+
+
         <div class="fs-3">Input Basic</div>
         <form action="">
             <div class="m-3 w-75">
@@ -21,7 +56,7 @@
                 <textarea name="" id="" cols="30" rows="10" class="form-control"></textarea>
                 <label class="form-label" for="">contents</label>
                 <!-- step="5": 5간격 만큼 이동 -->
-                <input min="0" max="20" step="5" class="form-range" type="range" name="" id="">
+                <input min="" max="" step="5" class="form-range" type="range" name="" id="">
             </div>
             <div>
                 <!--btn-primary: 버튼색을 배경은 파란색, 글씨는 흰색-->
